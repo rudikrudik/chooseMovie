@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 4000
-CMD ["npm", "start"]
+CMD ["PORT=4000", "npm", "start"]
