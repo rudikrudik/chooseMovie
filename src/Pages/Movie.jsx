@@ -44,7 +44,6 @@ function Movie() {
                     <div className="movie-img">
                         <DefaultCardImage data={data.poster}/>
                     </div>
-
                     <div className="movie-data-text">
                         <p><span>Title: </span>{data.title}</p>
                         <p><span>Year: </span>{data.year}</p>
@@ -64,7 +63,6 @@ function Movie() {
                             <Ratings data={from.data}/>
                         </div>
                     </div>
-
                 </div>
                 <div className="movie-data-more wrapper-movie">
                     <p>{data.plot}</p>
