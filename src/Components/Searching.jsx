@@ -1,8 +1,8 @@
 import React, {useContext, useState} from "react";
 import {Context} from "./MovieContext";
 
-function Searching (props) {
-    const [context, setContext] = useContext(Context);
+function Searching () {
+    const {setContext} = useContext(Context);
     const [searchMovie, setSearchMovie] = useState("")
 
     return (

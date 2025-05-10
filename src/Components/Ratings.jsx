@@ -20,11 +20,11 @@ function Ratings (props) {
 
     return (
         <>
-            <p>{rt ? <img src={rtImage}></img> : ""}</p>
+            <p>{rt ? <img src={rtImage} alt="rt"></img> : ""}</p>
             <p>{rt ? rt : " "}</p>
-            <p>{imdb ? <img src={imdbImage}></img> : ""}</p>
+            <p>{imdb ? <img src={imdbImage} alt="imbd"></img> : ""}</p>
             <p>{imdb ? imdb : " "}</p>
-            <p>{mc ? <img src={mcImage}></img> : ""}</p>
+            <p>{mc ? <img src={mcImage} alt="mc"></img> : ""}</p>
             <p>{mc ? mc : " "}</p>
         </>
     )

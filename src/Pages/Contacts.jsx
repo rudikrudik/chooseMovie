@@ -1,5 +1,4 @@
 import React from "react";
-import error_img from "../Images/error-img.png";
 import {Link} from "react-router-dom";
 
 function Contacts() {

@@ -7,7 +7,8 @@ function NotFound() {
         <div className="main">
             <div className='page-404'>
                 <p><h1>Hello from 404 page</h1></p>
-                <p><img src={shrek404}></img></p>
+                {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+                <p><img src={shrek404} alt="image"></img></p>
                 <h2><Link to="/" className="failed-link">Back to home</Link></h2>
             </div>
         </div>
