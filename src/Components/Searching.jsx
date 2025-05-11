@@ -2,6 +2,7 @@ import React, {useContext, useState} from "react";
 import {Context} from "./MovieContext";
 
 function Searching () {
+    // eslint-disable-next-line no-unused-vars
     const [context, setContext] = useContext(Context);
     const [searchMovie, setSearchMovie] = useState("")
 

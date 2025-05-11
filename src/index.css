@@ -6,13 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  height: 100%;
 }
 
 .wrap {
-{/*  display: flex;
+  display: flex;
   flex-flow: column nowrap;
-  width: 100vw;
-  height: 100vh; */}
+  height: 100vh;
 }
 
 a {
@@ -20,7 +20,6 @@ a {
 }
 
 .header {
-{/*flex: 0 0 70px;*/}
   background: linear-gradient(135deg, darkslategrey 10%, green);
   margin:0 14% 0 14%;
   border-radius: 2px 2px 25px 25px;
@@ -28,7 +27,6 @@ a {
 }
 
 .footer {
-{/*flex: 0 0 70px;*/}
   background: linear-gradient(135deg, green 10%, darkslategrey);
   margin: 0 14% 0 14%;
   border-radius: 25px 25px 2px 2px;
@@ -36,13 +34,12 @@ a {
 }
 
 .main {
-{/*flex: 1 1 auto;*/}
   margin: 50px 14% 50px 14%;
+  flex: 1 1 auto;
 }
 
 .wrapper-header {
   display: flex;
-{/*height: 100%;*/}
 }
 
 .header-logo {
@@ -70,8 +67,6 @@ a {
 
 .wrapper-footer {
   display: flex;
-{/*height: 100%;
-  margin-bottom: 0;*/}
 }
 
 .footer-copyright {
@@ -98,7 +93,6 @@ a {
 }
 
 .wrapper-movies {
-  {/*flex: 2 1 auto;*/}
 }
 
 .movies {
@@ -348,11 +342,12 @@ input[type=search]
 }
 
 .movie-img {
-  margin: 20px 0 0 20px;
+  margin: 20px 20px 0 20px;
 }
 
 .movie-img img {
   border-radius: 20px;
+  width: 100%;
 }
 
 .wrapper-movie span {
