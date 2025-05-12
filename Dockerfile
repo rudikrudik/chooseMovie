@@ -13,4 +13,4 @@ COPY --from=BUILD build/build ./
 #COPY --from=BUILD build/.env ./
 RUN npm install --only=prod
 EXPOSE 3000
-CMD ["node", "./app.js"]
+#CMD ["node", "./app.js"]
