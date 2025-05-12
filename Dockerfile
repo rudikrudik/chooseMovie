@@ -17,9 +17,8 @@ RUN npm run build
 
 # Stage 3: Production environment
 FROM nginx:alpine AS PRODUCTION
-
 # Copy the production build artifacts from the build stage
-COPY --from=BUILD /app/build /usr/share/nginx/html
+COPY --from=BUILD /build/build /usr/share/nginx/html
 
 # Expose the default NGINX port
 EXPOSE 3000
